@@ -1,0 +1,25 @@
+# Compiled binaries and libraries
+bin/
+*.o
+*.a
+*.so
+*.dylib
+
+# Debug symbols
+*.dSYM/
+
+# OS metadata
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Shell and test artifacts
+.shell_history
+POSIX Shell/shell
+POSIX Shell/src/*.o
+POSIX Shell/src/builtins/*.o
+src/*.o
